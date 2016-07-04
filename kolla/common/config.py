@@ -156,11 +156,11 @@ SOURCES = {
     'aodh-base': {
         'type': 'url',
         'location': ('http://tarballs.openstack.org/aodh/'
-                     'aodh-2.0.0.tar.gz')},
+                     'aodh-2.0.1.tar.gz')},
     'ceilometer-base': {
         'type': 'url',
         'location': ('http://tarballs.openstack.org/ceilometer/'
-                     'ceilometer-6.0.0.tar.gz')},
+                     'ceilometer-6.1.0.tar.gz')},
     'cinder-base': {
         'type': 'url',
         'location': ('http://tarballs.openstack.org/cinder/'
@@ -184,15 +184,15 @@ SOURCES = {
     'horizon': {
         'type': 'url',
         'location': ('http://tarballs.openstack.org/horizon/'
-                     'horizon-9.0.0.tar.gz')},
+                     'horizon-9.0.1.tar.gz')},
     'ironic-base': {
         'type': 'url',
         'location': ('http://tarballs.openstack.org/ironic/'
-                     'ironic-5.1.0.tar.gz')},
+                     'ironic-5.1.2.tar.gz')},
     'keystone': {
         'type': 'url',
         'location': ('http://tarballs.openstack.org/keystone/'
-                     'keystone-9.0.0.tar.gz')},
+                     'keystone-9.0.2.tar.gz')},
     'magnum-base': {
         'type': 'url',
         'location': ('http://tarballs.openstack.org/magnum/'
@@ -208,15 +208,19 @@ SOURCES = {
     'murano-base': {
         'type': 'url',
         'location': ('http://tarballs.openstack.org/murano/'
-                     'murano-2.0.0.tar.gz')},
+                     'murano-2.0.1.tar.gz')},
     'neutron-base': {
         'type': 'url',
         'location': ('http://tarballs.openstack.org/neutron/'
-                     'neutron-8.0.0.tar.gz')},
+                     'neutron-8.1.2.tar.gz')},
+    'neutron-lbaas-agent': {
+        'type': 'url',
+        'location': ('http://tarballs.openstack.org/neutron-lbaas/'
+                     'neutron-lbaas-8.1.2.tar.gz')},
     'nova-base': {
         'type': 'url',
         'location': ('http://tarballs.openstack.org/nova/'
-                     'nova-13.0.0.tar.gz')},
+                     'nova-13.1.0.tar.gz')},
     'nova-spicehtml5proxy': {
         'type': 'url',
         'location': ('http://github.com/SPICE/spice-html5/tarball/'
@@ -236,7 +240,7 @@ SOURCES = {
     'trove-base': {
         'type': 'url',
         'location': ('http://tarballs.openstack.org/trove/'
-                     'trove-5.0.0.tar.gz')},
+                     'trove-5.0.1.tar.gz')},
     'zaqar': {
         'type': 'url',
         'location': ('http://tarballs.openstack.org/zaqar/'
