@@ -14,6 +14,7 @@ mechanism_drivers = openvswitch,l2population
 {% elif neutron_plugin_agent == "linuxbridge" %}
 mechanism_drivers = linuxbridge,l2population
 {% endif %}
+extension_drivers = dns
 
 [ml2_type_vlan]
 {% if enable_ironic | bool %}

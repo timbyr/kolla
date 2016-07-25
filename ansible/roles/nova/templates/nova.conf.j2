@@ -54,6 +54,8 @@ compute_driver = libvirt.LibvirtDriver
 # Though my_ip is not used directly, lots of other variables use $my_ip
 my_ip = {{ hostvars[inventory_hostname]['ansible_' + api_interface]['ipv4']['address'] }}
 
+dhcp_domain = openstack.timbyr.com
+
 {% if nova_console == 'novnc' %}
 [vnc]
 novncproxy_host = {{ hostvars[inventory_hostname]['ansible_' + api_interface]['ipv4']['address'] }}
